@@ -1,0 +1,12 @@
+15:01:27 **** Incremental Build of configuration Debug for project 034_HAL_TIM_TRIGGER_EXTI_LED ****
+make -j12 all 
+arm-none-eabi-size   034_HAL_TIM_TRIGGER_EXTI_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8984	     20	   1644	  10648	   2998	034_HAL_TIM_TRIGGER_EXTI_LED.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "034_HAL_TIM_TRIGGER_EXTI_LED.elf" "034_HAL_TIM_TRIGGER_EXTI_LED.hex"
+ 
+
+15:01:28 Build Finished. 0 errors, 0 warnings. (took 468ms)
+

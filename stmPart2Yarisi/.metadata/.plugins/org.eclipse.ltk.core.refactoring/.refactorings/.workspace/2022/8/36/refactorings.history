@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;020_USART3_int_pend&apos;" deleteContents="true" description="Delete resource &apos;020_USART3_int_pend&apos;" element1="/020_USART3_int_pend" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1661696747909"/>
+</session>

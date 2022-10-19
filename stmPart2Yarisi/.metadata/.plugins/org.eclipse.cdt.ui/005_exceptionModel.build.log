@@ -1,0 +1,20 @@
+14:45:03 **** Build of configuration Debug for project 005_exceptionModel ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "005_exceptionModel.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ibrahim\Desktop\stmPart2Yarisi\005_exceptionModel\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_exceptionModel.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_exceptionModel.elf
+ 
+arm-none-eabi-size   005_exceptionModel.elf 
+arm-none-eabi-objdump -h -S  005_exceptionModel.elf  > "005_exceptionModel.list"
+   text	   data	    bss	    dec	    hex	filename
+    676	      8	   1568	   2252	    8cc	005_exceptionModel.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_exceptionModel.list
+ 
+
+14:45:03 Build Finished. 0 errors, 0 warnings. (took 472ms)
+

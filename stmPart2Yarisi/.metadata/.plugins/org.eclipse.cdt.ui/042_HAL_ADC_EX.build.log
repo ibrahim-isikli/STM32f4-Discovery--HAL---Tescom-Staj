@@ -1,0 +1,12 @@
+14:52:45 **** Incremental Build of configuration Debug for project 042_HAL_ADC_EX ****
+make -j12 all 
+arm-none-eabi-size   042_HAL_ADC_EX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10228	     20	   1648	  11896	   2e78	042_HAL_ADC_EX.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "042_HAL_ADC_EX.elf" "042_HAL_ADC_EX.hex"
+ 
+
+14:52:46 Build Finished. 0 errors, 0 warnings. (took 816ms)
+

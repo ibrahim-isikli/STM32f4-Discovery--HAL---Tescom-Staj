@@ -1,0 +1,12 @@
+14:58:15 **** Incremental Build of configuration Debug for project 043_sinfrekansdegistirme ****
+make all 
+arm-none-eabi-size   043_sinfrekansdegistirme.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20396	     20	   2236	  22652	   587c	043_sinfrekansdegistirme.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "043_sinfrekansdegistirme.elf" "043_sinfrekansdegistirme.hex"
+ 
+
+14:58:16 Build Finished. 0 errors, 0 warnings. (took 539ms)
+

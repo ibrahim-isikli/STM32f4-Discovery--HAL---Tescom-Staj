@@ -1,0 +1,12 @@
+14:45:24 **** Build of configuration Debug for project 027_TIMER_MASTER_SLAVE ****
+make -j12 all 
+arm-none-eabi-size   027_TIMER_MASTER_SLAVE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7364	     20	   1716	   9100	   238c	027_TIMER_MASTER_SLAVE.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "027_TIMER_MASTER_SLAVE.elf" "027_TIMER_MASTER_SLAVE.hex"
+ 
+
+14:45:25 Build Finished. 0 errors, 0 warnings. (took 602ms)
+

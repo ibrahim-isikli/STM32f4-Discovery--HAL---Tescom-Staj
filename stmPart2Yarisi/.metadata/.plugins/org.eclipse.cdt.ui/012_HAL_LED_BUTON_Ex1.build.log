@@ -1,0 +1,12 @@
+14:45:08 **** Build of configuration Debug for project 012_HAL_LED_BUTON_Ex1 ****
+make -j12 all 
+arm-none-eabi-size   012_HAL_LED_BUTON_Ex1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6240	     20	   1572	   7832	   1e98	012_HAL_LED_BUTON_Ex1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "012_HAL_LED_BUTON_Ex1.elf" "012_HAL_LED_BUTON_Ex1.hex"
+ 
+
+14:45:09 Build Finished. 0 errors, 0 warnings. (took 600ms)
+

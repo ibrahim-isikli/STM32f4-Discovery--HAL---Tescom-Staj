@@ -1,0 +1,12 @@
+09:51:09 **** Build of configuration Debug for project 040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap ****
+make all 
+arm-none-eabi-size   040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10076	     20	   1648	  11744	   2de0	040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap.elf" "040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap.hex"
+ 
+
+09:51:11 Build Finished. 0 errors, 0 warnings. (took 1s.381ms)
+

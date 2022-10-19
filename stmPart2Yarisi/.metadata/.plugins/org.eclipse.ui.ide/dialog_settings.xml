@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\ibrahim\Desktop\gSistemCalisma"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\043_sinfrekansdegistirme"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\043_HAL_ADC_2potokuma"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\043_HAL_Coklu_ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\042_HAL_ADC_EX"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\041_HAL_TIM_OUTPUT_COMPARE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\040_HAL_TIM_INPUT_CAPTURE_Interrupt_FrekansHesap"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\039_HAL_TIM_INPUT_CAPTURE_INTERRUPT"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\039_HAL_TIM_INPUT_CAPTURE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\037_HAL_TIM_SLAVE_TRIGGER_MODE_INTERNAL"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\036_HAL_TIM_TRIGGER_EXTI"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\036_HAL_TIM_TRIGGER_EXTI_TIM3"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\036_HAL_TIM_SALVEtrigger_EXTI"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\035_SIN"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\033_HAL_TIM_TRIGGER_EXTI_LED"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\034_HAL_TIM_TRIGGER_EXTI_LED"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\033_HAL_TIM_TRIGGERMode_EXternalInterrupt"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\033_HAL_TIMER_TRIGGER_MODE_EXTINTERRUPT"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\033_HAL_TIMER_TRIGGERMODE_EXTI"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\033_HAL_TIM_SLAVE_TRIGGERMODE_EXT"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\032_HAL_TIME_SLAVE_TRIGGER_MODE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\031_HAL_TIM_GATTED_EX1"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\030_HAL_TIM_SLAVE_GATED_Mode"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\029_HAL_TIM_ResetModeEx1"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\028_HAL_TIMER_ResetMode"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\028_HAL_TIMER_SLAVE_RESETMode"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\027_TIMER_MASTER_SLAVE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\026_HAL_EXT_TRIGGER_MODE2"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\25_TimerTrigger"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\025_HAL_TIMER_EXTERNAL_TRIGGERMode"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\HAL_TIMER_INTERRUPT_EX2"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\024_HAL_TIMER_INTERRUPT_EX1"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\023_sssss"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\022_SIN"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\021_HAL_TIMER_INTERRUPT"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\019_HAL_DAC-ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\018_HAL_DAC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\017_HAL_ADC_MULTI_AND_TEMPRATURE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\017_HAL_ADC_INTERRUPT_MULTI_ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\017_Multi_ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\015_HAL_ADC"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\014_HAL_HCSR04"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\013_HAL_INTERRUPT"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\012_HAL_LED_BUTON_Ex1"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\011_HAL_BUTON_KONTROL_LED"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\010_LED_HALL_TOGLEPIN"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\009_LED_HALL_DELAY"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\008_LED_HAL_TOGGLE"/>
+			<item value="C:\Users\ibrahim\Desktop\stmPart2Yarisi\007_LED_BLINK_HALL"/>
+		</list>
+	</section>
+</section>

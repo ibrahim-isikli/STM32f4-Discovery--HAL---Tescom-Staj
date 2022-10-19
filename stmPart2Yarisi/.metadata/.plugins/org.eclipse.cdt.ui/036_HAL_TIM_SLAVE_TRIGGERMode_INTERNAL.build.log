@@ -1,0 +1,12 @@
+15:05:09 **** Incremental Build of configuration Debug for project 036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL ****
+make -j12 all 
+arm-none-eabi-size   036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8184	     20	   1720	   9924	   26c4	036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL.elf" "036_HAL_TIM_SLAVE_TRIGGERMode_INTERNAL.hex"
+ 
+
+15:05:09 Build Finished. 0 errors, 0 warnings. (took 465ms)
+

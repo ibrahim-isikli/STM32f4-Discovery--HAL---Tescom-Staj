@@ -1,0 +1,12 @@
+09:57:10 **** Incremental Build of configuration Debug for project 017_Multi_ADC ****
+make -j12 all 
+arm-none-eabi-size   017_Multi_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8124	     20	   1656	   9800	   2648	017_Multi_ADC.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "017_Multi_ADC.elf" "017_Multi_ADC.hex"
+ 
+
+09:57:11 Build Finished. 0 errors, 0 warnings. (took 537ms)
+

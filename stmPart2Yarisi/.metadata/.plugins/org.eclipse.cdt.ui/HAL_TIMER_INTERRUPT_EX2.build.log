@@ -1,0 +1,12 @@
+09:33:47 **** Incremental Build of configuration Debug for project HAL_TIMER_INTERRUPT_EX2 ****
+make -j12 all 
+arm-none-eabi-size   HAL_TIMER_INTERRUPT_EX2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8544	     20	   1640	  10204	   27dc	HAL_TIMER_INTERRUPT_EX2.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "HAL_TIMER_INTERRUPT_EX2.elf" "HAL_TIMER_INTERRUPT_EX2.hex"
+ 
+
+09:33:48 Build Finished. 0 errors, 0 warnings. (took 543ms)
+

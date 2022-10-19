@@ -1,0 +1,19 @@
+14:45:12 **** Build of configuration Debug for project 017_HAL_ADC_MULTI_AND_TEMPRATURE ****
+make -j12 all 
+arm-none-eabi-gcc -c "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "017_HAL_ADC_MULTI_AND_TEMPRATURE.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407VG_FLASH.ld" --specs=nosys.specs -Wl,-Map="017_HAL_ADC_MULTI_AND_TEMPRATURE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 017_HAL_ADC_MULTI_AND_TEMPRATURE.elf
+ 
+arm-none-eabi-size   017_HAL_ADC_MULTI_AND_TEMPRATURE.elf 
+arm-none-eabi-objdump -h -S  017_HAL_ADC_MULTI_AND_TEMPRATURE.elf  > "017_HAL_ADC_MULTI_AND_TEMPRATURE.list"
+   text	   data	    bss	    dec	    hex	filename
+   9284	     20	   1744	  11048	   2b28	017_HAL_ADC_MULTI_AND_TEMPRATURE.elf
+Finished building: default.size.stdout
+ 
+Finished building: 017_HAL_ADC_MULTI_AND_TEMPRATURE.list
+ 
+arm-none-eabi-objcopy.exe -O ihex "017_HAL_ADC_MULTI_AND_TEMPRATURE.elf" "017_HAL_ADC_MULTI_AND_TEMPRATURE.hex"
+ 
+
+14:45:14 Build Finished. 0 errors, 0 warnings. (took 1s.470ms)
+

@@ -1,0 +1,12 @@
+14:45:09 **** Build of configuration Debug for project 013_HAL_INTERRUPT ****
+make -j12 all 
+arm-none-eabi-size   013_HAL_INTERRUPT.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6496	     20	   1576	   8092	   1f9c	013_HAL_INTERRUPT.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "013_HAL_INTERRUPT.elf" "013_HAL_INTERRUPT.hex"
+ 
+
+14:45:09 Build Finished. 0 errors, 0 warnings. (took 599ms)
+

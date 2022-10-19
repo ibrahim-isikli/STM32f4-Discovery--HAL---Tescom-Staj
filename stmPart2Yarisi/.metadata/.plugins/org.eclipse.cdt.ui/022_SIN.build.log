@@ -1,0 +1,15 @@
+14:45:16 **** Build of configuration Debug for project 022_SIN ****
+make -j12 all 
+arm-none-eabi-size   022_SIN.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18836	     20	   2156	  21012	   5214	022_SIN.elf
+Finished building: default.size.stdout
+ 
+arm-atollic-eabi-objcopy.exe -O ihex "022_SIN.elf" "022_SIN.hex"
+c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.0.100.202202231230/tools/bin/sh: arm-atollic-eabi-objcopy.exe: not found
+make[1]: *** [makefile:85: post-build] Error 127
+make: *** [makefile:58: all] Error 2
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+14:45:17 Build Failed. 2 errors, 0 warnings. (took 596ms)
+

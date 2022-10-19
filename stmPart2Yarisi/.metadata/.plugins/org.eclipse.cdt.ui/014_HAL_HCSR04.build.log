@@ -1,0 +1,19 @@
+14:45:09 **** Build of configuration Debug for project 014_HAL_HCSR04 ****
+make -j12 all 
+arm-none-eabi-gcc -c "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "014_HAL_HCSR04.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407VG_FLASH.ld" --specs=nosys.specs -Wl,-Map="014_HAL_HCSR04.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 014_HAL_HCSR04.elf
+ 
+arm-none-eabi-size   014_HAL_HCSR04.elf 
+arm-none-eabi-objdump -h -S  014_HAL_HCSR04.elf  > "014_HAL_HCSR04.list"
+   text	   data	    bss	    dec	    hex	filename
+   6512	     20	   1576	   8108	   1fac	014_HAL_HCSR04.elf
+Finished building: default.size.stdout
+ 
+Finished building: 014_HAL_HCSR04.list
+ 
+arm-none-eabi-objcopy.exe -O ihex "014_HAL_HCSR04.elf" "014_HAL_HCSR04.hex"
+ 
+
+14:45:11 Build Finished. 0 errors, 0 warnings. (took 1s.296ms)
+

@@ -1,0 +1,12 @@
+10:01:28 **** Incremental Build of configuration Debug for project 041_HAL_TIM_OUTPUT_COMPARE ****
+make all 
+arm-none-eabi-size   041_HAL_TIM_OUTPUT_COMPARE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8412	     20	   1640	  10072	   2758	041_HAL_TIM_OUTPUT_COMPARE.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "041_HAL_TIM_OUTPUT_COMPARE.elf" "041_HAL_TIM_OUTPUT_COMPARE.hex"
+ 
+
+10:01:29 Build Finished. 0 errors, 0 warnings. (took 883ms)
+

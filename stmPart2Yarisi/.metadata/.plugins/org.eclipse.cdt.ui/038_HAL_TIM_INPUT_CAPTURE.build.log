@@ -1,0 +1,12 @@
+12:29:03 **** Incremental Build of configuration Debug for project 038_HAL_TIM_INPUT_CAPTURE ****
+make all 
+arm-none-eabi-size   038_HAL_TIM_INPUT_CAPTURE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9156	     20	   1648	  10824	   2a48	038_HAL_TIM_INPUT_CAPTURE.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "038_HAL_TIM_INPUT_CAPTURE.elf" "038_HAL_TIM_INPUT_CAPTURE.hex"
+ 
+
+12:29:03 Build Finished. 0 errors, 0 warnings. (took 641ms)
+

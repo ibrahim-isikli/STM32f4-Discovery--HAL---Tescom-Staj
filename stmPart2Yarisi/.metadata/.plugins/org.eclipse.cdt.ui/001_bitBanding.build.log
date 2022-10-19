@@ -1,0 +1,20 @@
+14:45:01 **** Build of configuration Debug for project 001_bitBanding ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "001_bitBanding.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ibrahim\Desktop\stmPart2Yarisi\001_bitBanding\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_bitBanding.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_bitBanding.elf
+ 
+arm-none-eabi-size   001_bitBanding.elf 
+arm-none-eabi-objdump -h -S  001_bitBanding.elf  > "001_bitBanding.list"
+   text	   data	    bss	    dec	    hex	filename
+    724	      8	   1568	   2300	    8fc	001_bitBanding.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_bitBanding.list
+ 
+
+14:45:01 Build Finished. 0 errors, 0 warnings. (took 519ms)
+

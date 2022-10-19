@@ -1,0 +1,10 @@
+14:45:15 **** Build of configuration Debug for project 020_USART3_int_pend ****
+make -j12 all 
+arm-none-eabi-size   020_USART3_int_pend.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3744	    108	   1588	   5440	   1540	020_USART3_int_pend.elf
+Finished building: default.size.stdout
+ 
+
+14:45:15 Build Finished. 0 errors, 0 warnings. (took 174ms)
+

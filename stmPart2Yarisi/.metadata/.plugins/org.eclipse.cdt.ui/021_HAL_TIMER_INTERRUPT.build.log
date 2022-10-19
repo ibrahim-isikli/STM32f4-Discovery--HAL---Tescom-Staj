@@ -1,0 +1,12 @@
+14:45:15 **** Build of configuration Debug for project 021_HAL_TIMER_INTERRUPT ****
+make -j12 all 
+arm-none-eabi-size   021_HAL_TIMER_INTERRUPT.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8544	     20	   1640	  10204	   27dc	021_HAL_TIMER_INTERRUPT.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "021_HAL_TIMER_INTERRUPT.elf" "021_HAL_TIMER_INTERRUPT.hex"
+ 
+
+14:45:16 Build Finished. 0 errors, 0 warnings. (took 599ms)
+

@@ -1,0 +1,12 @@
+14:45:28 **** Incremental Build of configuration Debug for project 031_HAL_TIM_GATTED_EX1 ****
+make -j12 all 
+arm-none-eabi-size   031_HAL_TIM_GATTED_EX1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8360	     20	   1644	  10024	   2728	031_HAL_TIM_GATTED_EX1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "031_HAL_TIM_GATTED_EX1.elf" "031_HAL_TIM_GATTED_EX1.hex"
+ 
+
+14:45:28 Build Finished. 0 errors, 0 warnings. (took 531ms)
+

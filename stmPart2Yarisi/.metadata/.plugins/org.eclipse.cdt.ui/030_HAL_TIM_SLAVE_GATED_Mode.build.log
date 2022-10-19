@@ -1,0 +1,12 @@
+14:45:27 **** Incremental Build of configuration Debug for project 030_HAL_TIM_SLAVE_GATED_Mode ****
+make -j12 all 
+arm-none-eabi-size   030_HAL_TIM_SLAVE_GATED_Mode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8132	     20	   1644	   9796	   2644	030_HAL_TIM_SLAVE_GATED_Mode.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "030_HAL_TIM_SLAVE_GATED_Mode.elf" "030_HAL_TIM_SLAVE_GATED_Mode.hex"
+ 
+
+14:45:27 Build Finished. 0 errors, 0 warnings. (took 534ms)
+

@@ -1,0 +1,12 @@
+15:18:38 **** Incremental Build of configuration Debug for project 043_HAL_ADC_2potokuma ****
+make -j12 all 
+arm-none-eabi-size   043_HAL_ADC_2potokuma.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7928	     20	   1716	   9664	   25c0	043_HAL_ADC_2potokuma.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "043_HAL_ADC_2potokuma.elf" "043_HAL_ADC_2potokuma.hex"
+ 
+
+15:18:38 Build Finished. 0 errors, 0 warnings. (took 632ms)
+

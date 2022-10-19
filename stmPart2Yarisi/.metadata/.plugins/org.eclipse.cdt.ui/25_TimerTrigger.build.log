@@ -1,0 +1,12 @@
+12:12:39 **** Incremental Build of configuration Debug for project 25_TimerTrigger ****
+make -j12 all 
+arm-none-eabi-size   25_TimerTrigger.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7644	     20	   1644	   9308	   245c	25_TimerTrigger.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "25_TimerTrigger.elf" "25_TimerTrigger.hex"
+ 
+
+12:12:39 Build Finished. 0 errors, 0 warnings. (took 469ms)
+

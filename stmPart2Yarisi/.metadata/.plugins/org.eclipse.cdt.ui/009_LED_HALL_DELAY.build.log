@@ -1,0 +1,12 @@
+14:45:06 **** Build of configuration Debug for project 009_LED_HALL_DELAY ****
+make -j12 all 
+arm-none-eabi-size   009_LED_HALL_DELAY.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5956	     20	   1568	   7544	   1d78	009_LED_HALL_DELAY.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "009_LED_HALL_DELAY.elf" "009_LED_HALL_DELAY.hex"
+ 
+
+14:45:07 Build Finished. 0 errors, 0 warnings. (took 529ms)
+

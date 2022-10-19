@@ -1,0 +1,12 @@
+11:34:03 **** Incremental Build of configuration Debug for project 025_HAL_TIMER_EXTERNAL_TRIGGERMode ****
+make -j12 all 
+arm-none-eabi-size   025_HAL_TIMER_EXTERNAL_TRIGGERMode.elf 
+   text	   data	    bss	    dec	    hex	filename
+     88	      8	   1564	   1660	    67c	025_HAL_TIMER_EXTERNAL_TRIGGERMode.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "025_HAL_TIMER_EXTERNAL_TRIGGERMode.elf" "025_HAL_TIMER_EXTERNAL_TRIGGERMode.hex"
+ 
+
+11:34:04 Build Finished. 0 errors, 0 warnings. (took 480ms)
+

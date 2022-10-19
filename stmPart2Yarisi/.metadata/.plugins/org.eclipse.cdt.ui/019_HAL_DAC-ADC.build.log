@@ -1,0 +1,12 @@
+14:45:15 **** Build of configuration Debug for project 019_HAL_DAC-ADC ****
+make -j12 all 
+arm-none-eabi-size   019_HAL_DAC-ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8848	     20	   1664	  10532	   2924	019_HAL_DAC-ADC.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "019_HAL_DAC-ADC.elf" "019_HAL_DAC-ADC.hex"
+ 
+
+14:45:15 Build Finished. 0 errors, 0 warnings. (took 668ms)
+

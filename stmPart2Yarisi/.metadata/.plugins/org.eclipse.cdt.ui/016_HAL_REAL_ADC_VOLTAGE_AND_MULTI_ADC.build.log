@@ -1,0 +1,12 @@
+14:45:12 **** Build of configuration Debug for project 016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC ****
+make -j12 all 
+arm-none-eabi-size   016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8172	     20	   1656	   9848	   2678	016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC.elf" "016_HAL_REAL_ADC_VOLTAGE_AND_MULTI_ADC.hex"
+ 
+
+14:45:12 Build Finished. 0 errors, 0 warnings. (took 597ms)
+

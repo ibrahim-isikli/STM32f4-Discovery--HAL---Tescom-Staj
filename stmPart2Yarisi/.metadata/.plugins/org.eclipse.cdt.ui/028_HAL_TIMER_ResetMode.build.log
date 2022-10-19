@@ -1,0 +1,12 @@
+10:09:46 **** Incremental Build of configuration Debug for project 028_HAL_TIMER_ResetMode ****
+make all 
+arm-none-eabi-size   028_HAL_TIMER_ResetMode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8268	     20	   1644	   9932	   26cc	028_HAL_TIMER_ResetMode.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "028_HAL_TIMER_ResetMode.elf" "028_HAL_TIMER_ResetMode.hex"
+ 
+
+10:09:47 Build Finished. 0 errors, 0 warnings. (took 642ms)
+

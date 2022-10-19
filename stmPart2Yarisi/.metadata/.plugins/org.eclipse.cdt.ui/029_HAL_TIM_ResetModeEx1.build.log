@@ -1,0 +1,12 @@
+14:45:26 **** Incremental Build of configuration Debug for project 029_HAL_TIM_ResetModeEx1 ****
+make -j12 all 
+arm-none-eabi-size   029_HAL_TIM_ResetModeEx1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8348	     20	   1644	  10012	   271c	029_HAL_TIM_ResetModeEx1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "029_HAL_TIM_ResetModeEx1.elf" "029_HAL_TIM_ResetModeEx1.hex"
+ 
+
+14:45:27 Build Finished. 0 errors, 0 warnings. (took 537ms)
+

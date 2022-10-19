@@ -1,0 +1,8 @@
+10:32:05 **** Incremental Build of configuration Debug for project mxdenemiki ****
+make -j12 all 
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:87: fail-specified-linker-script-missing] Error 2
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+10:32:05 Build Failed. 2 errors, 0 warnings. (took 312ms)
+

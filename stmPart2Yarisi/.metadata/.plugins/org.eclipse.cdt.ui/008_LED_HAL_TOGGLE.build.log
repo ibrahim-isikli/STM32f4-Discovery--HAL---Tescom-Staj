@@ -1,0 +1,12 @@
+14:45:06 **** Build of configuration Debug for project 008_LED_HAL_TOGGLE ****
+make -j12 all 
+arm-none-eabi-size   008_LED_HAL_TOGGLE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6004	     20	   1568	   7592	   1da8	008_LED_HAL_TOGGLE.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "008_LED_HAL_TOGGLE.elf" "008_LED_HAL_TOGGLE.hex"
+ 
+
+14:45:06 Build Finished. 0 errors, 0 warnings. (took 589ms)
+
